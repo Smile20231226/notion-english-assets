@@ -1,0 +1,39 @@
+name: rasterize
+
+on:
+  push:
+    paths:
+      - 'covers/**/*.svg'
+      - 'icons/**/*.svg'
+      - '.github/workflows/rasterize.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install cairosvg
+      - name: Convert svg to png
+        run: |
+          python - <<'PY'
+          import glob, cairosvg
+          for f in sorted(glob.glob('covers/*.svg')):
+              cairosvg.svg2png(url=f, write_to=f[:-4] + '.png', output_width=1500, output_height=600)
+          for f in sorted(glob.glob('icons/*.svg')):
+              cairosvg.svg2png(url=f, write_to=f[:-4] + '.png', output_width=256, output_height=256)
+          print('done')
+          PY
+      - name: Commit png
+        run: |
+          git config user.name "assets-bot"
+          git config user.email "assets-bot@users.noreply.github.com"
+          git add covers icons
+          git commit -m "rasterize: svg -> png" || echo "nothing to commit"
+          git push
