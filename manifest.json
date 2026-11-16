@@ -1,0 +1,268 @@
+[
+ {
+  "slug": "iphone-fold",
+  "page_id": "3dfabdd7-e4df-81b5-8fa4-f121e1a26842",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/mobile-phone"
+ },
+ {
+  "slug": "stock-gap",
+  "page_id": "3deabdd7-e4df-8063-ae27-e2cbcded9b6d",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/chart-increasing"
+ },
+ {
+  "slug": "changsha-charger",
+  "page_id": "3ebabdd7-e4df-81a2-ac7f-e6b4cabc5905",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/electric-plug"
+ },
+ {
+  "slug": "scattered-points",
+  "page_id": "3f1abdd7-e4df-8122-9a0e-f672f76329cb",
+  "cover": true,
+  "icon": true,
+  "motif": "mdi/star-four-points"
+ },
+ {
+  "slug": "polish-speaking",
+  "page_id": "3efabdd7-e4df-819b-80a4-efb1ef6594a5",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/speech-balloon"
+ },
+ {
+  "slug": "the-office",
+  "page_id": "406abdd7-e4df-8183-a4e5-d97f820c6822",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/clapper-board"
+ },
+ {
+  "slug": "china-shopping",
+  "page_id": "406abdd7-e4df-81fd-a7b0-f70c213d5857",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/shopping-bags"
+ },
+ {
+  "slug": "homeland",
+  "page_id": "408abdd7-e4df-8145-b37d-c44cb082373d",
+  "cover": false,
+  "icon": false,
+  "motif": "fluent-emoji-flat/movie-camera"
+ },
+ {
+  "slug": "suits",
+  "page_id": "3e1abdd7-e4df-8114-a8a9-e67b36a42660",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/balance-scale"
+ },
+ {
+  "slug": "bbc-listening",
+  "page_id": "3e1abdd7-e4df-81ed-bc85-cc0b2955210b",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/headphone"
+ },
+ {
+  "slug": "bbc-news",
+  "page_id": "3e1abdd7-e4df-81ba-98c6-ccb15a5eafbb",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/newspaper"
+ },
+ {
+  "slug": "obama-health",
+  "page_id": "3e2abdd7-e4df-819c-b19a-c52d46e717dc",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/microphone"
+ },
+ {
+  "slug": "china-haul",
+  "page_id": "402abdd7-e4df-8191-8246-fc19902dcc2f",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/shopping-cart"
+ },
+ {
+  "slug": "climate",
+  "page_id": "407abdd7-e4df-815d-b17e-f812b2908472",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/globe-showing-americas"
+ },
+ {
+  "slug": "coffee",
+  "page_id": "3e0abdd7-e4df-8114-a006-c80f6e920d4a",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/hot-beverage"
+ },
+ {
+  "slug": "esports",
+  "page_id": "3f4abdd7-e4df-81bc-b1bd-e7c17e2cb97d",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/video-game"
+ },
+ {
+  "slug": "ted-ed-story",
+  "page_id": "3f8abdd7-e4df-81f6-b902-e3c8f9aa4821",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/speech-balloon"
+ },
+ {
+  "slug": "jungle-gremlins",
+  "page_id": "3e9abdd7-e4df-8197-8491-ca9e4b848e05",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/monkey-face"
+ },
+ {
+  "slug": "yellowstone",
+  "page_id": "3ecabdd7-e4df-812d-a041-ea696ce36044",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/horse"
+ },
+ {
+  "slug": "mind-switch",
+  "page_id": "3f4abdd7-e4df-8197-8b7b-cde3e6b20d15",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/brain"
+ },
+ {
+  "slug": "training-methods",
+  "page_id": "40aabdd7-e4df-8112-a571-ec93da4a6081",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/spiral-notepad"
+ },
+ {
+  "slug": "translation-system",
+  "page_id": "40aabdd7-e4df-8129-82ff-ee0acf6fb2c5",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/counterclockwise-arrows-button"
+ },
+ {
+  "slug": "thinking-pits",
+  "page_id": "40aabdd7-e4df-81d3-a820-d51c0338c1b8",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/hole"
+ },
+ {
+  "slug": "skills-inventory",
+  "page_id": "40aabdd7-e4df-8189-8d99-f1a57dbe2242",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/abacus"
+ },
+ {
+  "slug": "camera-shot",
+  "page_id": "40aabdd7-e4df-8155-957f-dfee9b7dc563",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/movie-camera"
+ },
+ {
+  "slug": "matching-rules",
+  "page_id": "40aabdd7-e4df-812a-8daf-fb238b930333",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/link"
+ },
+ {
+  "slug": "practice-actions",
+  "page_id": "40aabdd7-e4df-81f1-86dc-caae5936d8dd",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/hammer-and-wrench"
+ },
+ {
+  "slug": "persona",
+  "page_id": "407abdd7-e4df-8126-a2a6-f327bfa0d5ea",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/bust-in-silhouette"
+ },
+ {
+  "slug": "marvel-cut",
+  "page_id": "3f2abdd7-e4df-81b1-bf0d-d78e45aac003",
+  "cover": true,
+  "icon": true,
+  "motif": "openmoji:superhero"
+ },
+ {
+  "slug": "business-english",
+  "page_id": "419abdd7-e4df-81cf-bbd6-eb641791ad42",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/briefcase"
+ },
+ {
+  "slug": "tsmc-acquired",
+  "page_id": "407abdd7-e4df-8109-8ff2-f09d754f1911",
+  "cover": true,
+  "icon": true,
+  "motif": "boxicons:microchip"
+ },
+ {
+  "slug": "helmet",
+  "page_id": "40cabdd7-e4df-8124-b940-e4574048202d",
+  "cover": false,
+  "icon": true,
+  "motif": "openmoji:rescue-workers-helmet"
+ },
+ {
+  "slug": "pliers",
+  "page_id": "40cabdd7-e4df-810d-a62d-e82c085d737f",
+  "cover": false,
+  "icon": true,
+  "motif": "fluent-emoji-flat/wrench"
+ },
+ {
+  "slug": "golf",
+  "page_id": "40dabdd7-e4df-8163-bd4b-cb439c9b71fd",
+  "cover": false,
+  "icon": true,
+  "motif": "fluent-emoji-flat/person-golfing"
+ },
+ {
+  "slug": "udon",
+  "page_id": "40dabdd7-e4df-815c-bf3f-d75f30749650",
+  "cover": false,
+  "icon": true,
+  "motif": "fluent-emoji-flat/steaming-bowl"
+ },
+ {
+  "slug": "barnacle",
+  "page_id": "417abdd7-e4df-8140-9669-f15ba4f63f0b",
+  "cover": false,
+  "icon": true,
+  "motif": "fluent-emoji-flat/automobile"
+ },
+ {
+  "slug": "focus",
+  "page_id": "3e0abdd7-e4df-8113-9f77-caf12a1dff4e",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/bullseye"
+ },
+ {
+  "slug": "workplace-blame",
+  "page_id": "419abdd7-e4df-81fc-bffa-f040c4f75c5f",
+  "cover": true,
+  "icon": true,
+  "motif": "fluent-emoji-flat/backhand-index-pointing-right"
+ }
+]
