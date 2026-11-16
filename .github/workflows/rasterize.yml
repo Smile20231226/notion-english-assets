@@ -1,12 +1,11 @@
-name: rasterize
+name: build-assets
 
 on:
+  workflow_dispatch:
   push:
     paths:
-      - 'covers/**/*.svg'
-      - 'icons/**/*.svg'
+      - 'gen.py'
       - '.github/workflows/rasterize.yml'
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,6 +19,8 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install cairosvg
+      - name: Generate svg assets
+        run: python gen.py
       - name: Convert svg to png
         run: |
           python - <<'PY'
@@ -28,12 +29,12 @@ jobs:
               cairosvg.svg2png(url=f, write_to=f[:-4] + '.png', output_width=1500, output_height=600)
           for f in sorted(glob.glob('icons/*.svg')):
               cairosvg.svg2png(url=f, write_to=f[:-4] + '.png', output_width=256, output_height=256)
-          print('done')
+          print('converted')
           PY
-      - name: Commit png
+      - name: Commit assets
         run: |
           git config user.name "assets-bot"
           git config user.email "assets-bot@users.noreply.github.com"
-          git add covers icons
-          git commit -m "rasterize: svg -> png" || echo "nothing to commit"
+          git add covers icons manifest.json
+          git commit -m "assets: build svg + png [skip ci]" || echo "nothing to commit"
           git push
