@@ -1,0 +1,30 @@
+name: remote-asset
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'remote_assets.py'
+      - '.github/workflows/remote.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pillow
+      - name: Fetch and crop remote artwork
+        run: python remote_assets.py
+      - name: Commit png
+        run: |
+          git config user.name "assets-bot"
+          git config user.email "assets-bot@users.noreply.github.com"
+          git add icons covers
+          git commit -m "assets: silicon valley poster [skip ci]" || echo "nothing to commit"
+          git push
