@@ -271,5 +271,12 @@
     "cover": true,
     "icon": false,
     "motif": "emoji:loudspeaker"
+  },
+  {
+    "slug": "headcount-request",
+    "page_id": "",
+    "cover": true,
+    "icon": true,
+    "motif": "emoji:busts-in-silhouette"
   }
 ]
