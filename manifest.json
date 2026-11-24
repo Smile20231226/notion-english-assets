@@ -278,5 +278,12 @@
     "cover": true,
     "icon": true,
     "motif": "emoji:busts-in-silhouette"
+  },
+  {
+    "slug": "factory-tour",
+    "page_id": "__PENDING__",
+    "cover": true,
+    "icon": false,
+    "motif": "emoji:factory"
   }
 ]
