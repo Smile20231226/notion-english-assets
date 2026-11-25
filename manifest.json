@@ -292,5 +292,12 @@
     "cover": true,
     "icon": true,
     "motif": "emoji:handshake"
+  },
+  {
+    "slug": "dating-mindset",
+    "page_id": "423abdd7-e4df-81e1-966a-e3e14040366c",
+    "cover": true,
+    "icon": true,
+    "motif": "emoji:brain"
   }
 ]
