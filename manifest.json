@@ -285,5 +285,12 @@
     "cover": true,
     "icon": false,
     "motif": "emoji:factory"
+  },
+  {
+    "slug": "dilts-honest",
+    "page_id": "423abdd7-e4df-8182-8d4b-c5ea29545c53",
+    "cover": true,
+    "icon": true,
+    "motif": "emoji:handshake"
   }
 ]
